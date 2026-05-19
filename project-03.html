@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>스튜디오 메이트 앱 리디자인 | Hyeyoung Cha</title>
+  <meta name="description" content="필라테스 앱의 예약 경험 문제를 개선한 리디자인 프로젝트. 예약성공률 83.3%, 상태 이해도 4.7/5, 대기전환 만족도 5/5." />
+  <meta name="author" content="Hyeyoung Cha" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="스튜디오 메이트 앱 리디자인" />
+  <meta property="og:description" content="필라테스 앱의 예약 경험 문제를 개선한 리디자인 프로젝트." />
+  <meta property="og:image" content="images/03_studiomate/01_스튜디오메이트_표지.png" />
+  <meta property="og:locale" content="ko_KR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="스튜디오 메이트 앱 리디자인" />
+  <meta name="twitter:image" content="images/03_studiomate/01_스튜디오메이트_표지.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav id="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo">HYC<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#projects" class="active">Projects</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="메뉴 열기">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<nav class="nav-drawer">
+  <a href="index.html#about">About</a>
+  <a href="index.html#projects">Projects</a>
+  <a href="index.html#contact">Contact</a>
+</nav>
+
+<!-- ── Project Hero ── -->
+<section class="project-hero">
+  <div class="container">
+    <div class="project-hero-inner">
+      <a href="index.html#projects" class="project-back">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        모든 프로젝트
+      </a>
+      <p class="eyebrow">Mobile UI/UX · 2025.10 – 2026.01</p>
+      <h1 class="project-title">스튜디오 메이트</h1>
+      <p class="project-tagline">
+        필라테스 앱의 예약 경험을 개선하고<br>
+        대기 전환 흐름을 새롭게 설계한 리디자인
+      </p>
+      <div class="project-meta-row">
+        <div class="project-meta-item">
+          <div class="project-meta-key">Role</div>
+          <div class="project-meta-val">Product Designer</div>
+        </div>
+        <div class="project-meta-item">
+          <div class="project-meta-key">Duration</div>
+          <div class="project-meta-val">2025.10 – 2026.01</div>
+        </div>
+        <div class="project-meta-item">
+          <div class="project-meta-key">Tools</div>
+          <div class="project-meta-val">Figma, Maze, Notion</div>
+        </div>
+        <div class="project-meta-item">
+          <div class="project-meta-key">Platform</div>
+          <div class="project-meta-val">iOS · Android</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ── Project Body ── -->
+<section class="project-body">
+  <div class="container">
+
+    <div class="project-section reveal">
+      <div class="project-section-num">01</div>
+      <h2 class="project-section-title">Overview</h2>
+      <p class="project-section-body">
+        예약 기능을 빠르게 인지하도록 재설계한 운동 예약 경험 프로젝트입니다. 기여도 100%로 유저리서치부터 OKR 설정, 디자인시스템 구축, 화면 개선, UT까지 전 과정을 단독으로 진행했습니다.
+      </p>
+      <p class="project-section-body">
+        OKR 핵심 목표는 '예약 경험의 핵심 문제를 탐색이 아닌 판단 실패로 정의하고, 사용자가 지금 상태와 다음 행동을 빠르게 이해할 수 있는 구조를 만드는 것'이었습니다.
+      </p>
+    </div>
+
+    <div class="project-section reveal">
+      <div class="project-section-num">02</div>
+      <h2 class="project-section-title">Problem</h2>
+      <p class="project-section-body">
+        앱스토어 리뷰 83개를 분석한 결과 73.5%가 예약 관련 불만이었고, 평균 방문 횟수는 3회였습니다. "사용자는 왜 예약 직전 망설이거나 포기할까?"라는 질문에서 시작해 네 가지 핵심 인사이트를 도출했습니다.
+      </p>
+      <p class="project-section-body">
+        ① 확인 중심 사용 패턴 — 사용자는 홈에서 내 예약 상태를 먼저 확인한다 ② 예측하기 어려운 대기시간 — 대기의 불안은 길이가 아니라 예측 불가능성에서 발생한다 ③ 취소는 UX 문제가 아닌 리스크 경험 — 취소 마감 인지 실패는 곧 실제 금전 손실로 이어진다 ④ 첫 사용 단계에서 이탈 발생 — 센터 승인·연동 개념이 낯설어 진입 장벽이 형성된다.
+      </p>
+    </div>
+
+    <div class="project-section reveal">
+      <div class="project-section-num">03</div>
+      <h2 class="project-section-title">Process</h2>
+      <p class="project-section-body">유저리서치 → OKR → 데스크리서치·경쟁사 분석 → 인사이트 도출 → IA·플로우차트 → 디자인시스템 → 화면 개선 → UT의 순서로 진행했습니다.</p>
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="process-step-num">STEP 01</div>
+          <div class="process-step-title">Research & 인사이트</div>
+          <p class="process-step-desc">앱스토어 리뷰 분석, 경쟁사 데스크리서치, 유저리서치를 통해 확인 중심 사용 패턴, 예측 불가한 대기시간, 취소 리스크, 첫 사용 이탈이라는 네 가지 핵심 인사이트를 도출했습니다.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-step-num">STEP 02</div>
+          <div class="process-step-title">UX 원칙 수립 및 설계</div>
+          <p class="process-step-desc">상태 우선 원칙, 리스크 가드 원칙, 대기 가시화 원칙, 초보 보호 원칙, 지속 경험 원칙의 5가지 UX 원칙을 수립하고, IA·플로우차트 및 디자인시스템을 기반으로 화면을 재설계했습니다.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-step-num">STEP 03</div>
+          <div class="process-step-title">UT Test</div>
+          <p class="process-step-desc">예약 상태 대시보드 인지, 예약 가능성 판단, 예약 실행, 대기 전환, 정서적 피드백 수습의 5가지 과업으로 사용성 테스트를 진행하고 결과를 반영했습니다.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-section reveal">
+      <div class="project-section-num">04</div>
+      <h2 class="project-section-title">Outcome</h2>
+      <p class="project-section-body">UT 테스트 최종 결과 기준. 예약 실패 시에도 대기 UX 만족도 5.0을 달성하며 사용자 흐름이 끊기지 않는 예약 경험을 검증했습니다.</p>
+      <div class="outcome-grid">
+        <div class="outcome-card">
+          <div class="outcome-num">83.3%</div>
+          <p class="outcome-desc">예약 성공률 83.3% 달성</p>
+        </div>
+        <div class="outcome-card">
+          <div class="outcome-num">4.7/5</div>
+          <p class="outcome-desc">예약 상태 이해도 4.7/5</p>
+        </div>
+        <div class="outcome-card">
+          <div class="outcome-num">5.0/5</div>
+          <p class="outcome-desc">대기 전환 피드백 만족도 5.0 만점 · 대기 전환 성공률 100%</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-section reveal">
+      <div class="project-section-num">05</div>
+      <h2 class="project-section-title">Takeaway</h2>
+      <p class="project-section-body">
+        스튜디오메이트 리디자인의 목표는 화면을 예쁘게 개선하는 것이 아니라, 예약 과정의 리스크를 줄여 사용자의 운동 루틴을 지켜주는 경험 설계임을 명확히 했습니다. 인사이트를 기반으로 IA, 플로우, 알림 구조를 전면 재설계한 것이 유의미한 수치로 이어졌습니다.
+      </p>
+      <p class="project-section-body">
+        대기 전환 만족도 5/5라는 결과는 단순히 기능이 잘 작동했기 때문이 아니라, 사용자가 원하는 결과로 이어질 것이라는 신뢰감을 경험했기 때문이라고 생각합니다. 기능의 완성도만큼 사용자에게 전달되는 안심감 설계가 중요하다는 것을 배웠습니다.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── Image Gallery ── -->
+<section class="project-gallery">
+  <div class="container">
+    <div class="gallery-header">
+      <p class="eyebrow">Project Detail View</p>
+      <h2>프로젝트 자세히 보기</h2>
+    </div>
+    <div class="gallery-grid">
+      <img src="images/03_studiomate/01_스튜디오메이트_표지.png" alt="스튜디오메이트 표지" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/02_스튜디오메이트_서비스소개.png" alt="서비스 소개" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/03_스튜디오메이트_OKR.png" alt="프로젝트 OKR" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/04_스튜디오메이트_유저리서치.png" alt="유저 리서치" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/05_스튜디오메이트_가설.png" alt="가설 설정" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/06_스튜디오메이트_데스크리서치.png" alt="데스크 리서치" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/07_스튜디오메이트_데스크리서치.png" alt="데스크 리서치" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/08_스튜디오메이트_경쟁사분석.png" alt="경쟁사 분석" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/09_스튜디오메이트_유저리서치.png" alt="유저 리서치" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/10_스튜디오메이트_인사이트도출.png" alt="인사이트 도출" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/11_스튜디오메이트_프로젝트 목표.png" alt="프로젝트 목표" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/12_스튜디오메이트_IA및플로우차트.png" alt="IA 및 플로우차트" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/13_스튜디오메이트_디자인시스템.png" alt="디자인 시스템" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/14_스튜디오메이트_디자인시스템.png" alt="디자인 시스템" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/15_스튜디오메이트_개선된서비스.png" alt="개선된 서비스" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/16_스튜디오메이트_온보딩.png" alt="온보딩 화면" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/17_스튜디오메이트_메인홈.png" alt="메인 홈 화면" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/18_스튜디오메이트_수업예약하기.png" alt="수업 예약 화면" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/19_스튜디오메이트_대기하기.png" alt="대기 화면" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/20_스튜디오메이트_메이트패스.png" alt="메이트패스 화면" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/21_스튜디오메이트_내주변찾기.png" alt="내 주변 찾기 화면" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/22_스튜디오메이트_UTTEST.png" alt="사용성 테스트" loading="lazy" class="gallery-img" />
+      <img src="images/03_studiomate/23_스튜디오메이트_피드백.png" alt="피드백 결과" loading="lazy" class="gallery-img" />
+    </div>
+  </div>
+</section>
+
+<!-- ── Project Navigation ── -->
+<div class="project-nav-section">
+  <div class="container">
+    <div class="project-nav-grid">
+      <a href="project-02.html" class="project-nav-card">
+        <div class="project-nav-dir">← Previous Project</div>
+        <div class="project-nav-title">티처올리미 — 알림장 플랫폼</div>
+        <div class="project-nav-cta">
+          보러 가기
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </a>
+      <a href="project-04.html" class="project-nav-card">
+        <div class="project-nav-dir">Next Project →</div>
+        <div class="project-nav-title">휠라 웹 페이지 리디자인</div>
+        <div class="project-nav-cta">
+          보러 가기
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container footer-inner">
+    <p class="footer-copy">© 2026 Hyeyoung Cha. All rights reserved.</p>
+    <a href="index.html" class="footer-back">홈으로</a>
+  </div>
+</footer>
+
+<button id="back-to-top" aria-label="맨 위로 이동">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<script src="main.js"></script>
+</body>
+</html>
