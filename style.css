@@ -124,6 +124,20 @@ section { padding: clamp(80px, 10vw, 120px) 0; }
 .nav-links a:hover,
 .nav-links a.active { color: var(--ink); }
 
+.nav-links a.nav-switch {
+  padding: 6px 12px;
+  border: 1px solid var(--ink-25);
+  border-radius: 999px;
+  color: var(--ink);
+  letter-spacing: .12em;
+  transition: background .2s, color .2s, border-color .2s;
+}
+.nav-links a.nav-switch:hover {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+}
+
 .nav-toggle {
   display: none;
   flex-direction: column;
